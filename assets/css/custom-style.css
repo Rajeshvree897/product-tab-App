@@ -1,0 +1,471 @@
+	/*#add_dynamic_tabs{
+		margin-left: 432px;
+	}*/
+	.dy_product_tab_div{
+		float:left;/*Add float left*/
+    	margin :10px;
+	}
+
+	/*.tab_quantity {
+	  	position: relative;
+	}*/
+
+	input[type=number]
+	{
+	  -moz-appearance: textfield;
+	}
+
+	.tab_quantity input {
+	  /*width: 50px;*/
+	  height: 42px;
+	  line-height: 1.65;
+/*	  float: left;
+*/	  display: block;
+	  padding: 0;
+	  margin: 0;
+	  padding-left: 20px;
+	  border: 1px solid #eee;
+	}
+
+	.tab_quantity input:focus {
+	  outline: 0;
+	}
+	/*.go_to_style{
+		position: fixed;
+    	right: 0px; 
+	}*/
+	.style_setting_nav1 a{
+		color: #767778;
+		border: none;
+	}
+	ul.style_setting_nav1 li.active a{
+		color: #000 !important;
+		/*background: #337ab7 !important;
+		color: #fff !important;*/
+	    /*border-radius: 19px 8px 0 px 0px;
+	    border-radius: 25px 26px 0;*/
+    border-bottom: var(--p-override-none,.3rem) solid rgb(0 128 96) !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+	}
+	.active_tab_layout{
+		 background: #337ab7;
+		 color: #f9fafb;
+
+	}
+
+	.layout-btn{
+		font-weight: 100px !important;
+		margin-bottom: 0 px !important;
+	}
+	.main-design-tab{
+		margin-bottom: 20px !important;
+	}
+	.style-setting-sectin{
+		border-bottom: 1px;
+		border-color: #eee;
+	}
+
+	#tab_font_editor{
+		border: 1px solid;
+	    padding: 2px 2px 3px 1px;
+	    width: 225px;
+	}
+	#content_font_editor{
+		border: 1px solid;
+	    padding: 2px 2px 3px 1px;
+	}
+	#tab-fnt-family{
+		width: 62px;
+	}
+	#content-fnt-family{
+		width: 62px;
+	}
+	//gradiant toggle css
+	.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+#gradient_color{
+	margin-left: 54px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  left: 0;
+  right: 64%;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(0 128 96);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  width: 66px;
+  height: 35px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.main-design-block{
+	width: 50% !important;
+}
+/*mobile view*/
+
+@media only screen and (max-width: 767px) {
+.tab-lay-btn{
+		z-index: 99;
+	}
+	.ins-img {
+    width: 284px;
+    height: 100px;
+    margin-top: 20px;
+	}
+	.main-design-block{
+	width: 90% !important;
+	}
+	.style_setting_nav1 {
+    width: 306px;
+	}
+	.tab-width-style.col-md-4{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	.content-layout{
+		margin-bottom: 20px;
+	}
+	.tab-layout{
+	margin-bottom: 20px;
+	}
+	.main-design-tab{
+		margin-top: 10px;
+	}
+	/*#content_font_editor{
+		width: 75%;
+	}*/
+	/*#tab_font_editor{
+		width: 70%;
+	}*/
+	/*.tab-lay-mains , .content-bg-div{
+		float: left;
+	}*/
+	.gradient-div{
+		/*margin: 22px 0px 0px 188px;*/
+		margin-bottom: 20px;
+	}
+	.slider{
+		/*top: 94px;*/
+    left: 41px;
+	}
+	.save_tab{
+		margin-top: 5px;
+		margin-bottom: 30px;
+    color: #fff;
+    }
+	
+}
+.prv-card, .add_tabs, .style-pg,.copy-code-main, .code-section{
+		padding: 20px;
+    background-color: var(--p-surface);
+    box-shadow: var(--p-card-shadow,0 0 0 1px rgba(63,63,68,.05),0 1px 3px 0 rgba(63,63,68,.15));
+    outline: .1rem solid transparent;
+    border-radius: 8px;
+}
+.bck-btn{
+	padding: 10px;
+}
+.tab-ls-1{
+	margin: 0px;
+}
+
+.nv-heading{
+	font-weight: 600;
+}
+.btn-sv-tb{
+	margin-left: 80%;
+    margin-top: 12px;
+  }
+  .style-pg{
+  	height: 100%;
+  }
+  .design-hd{
+  	font-weight: bold;
+  	margin-bottom: 4px;
+  }
+/*  front benner*/
+.top-bnr.jumbotron{
+	padding-top: 17px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-radius:  10px;
+}
+.copy-code-head h2{
+	font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+.ui-cd{
+	overflow-y: scroll;	
+  background-color: #f4f6f8;
+  border-radius: var(--p-border-radius-base, 3px);
+   width: 100%;
+   height: 90px;
+}
+/*.copy-btn{
+	margin: 8px 0px 8px 0px;
+}*/
+.ins-img{
+	width: 400px;
+    height: 100px;
+        margin-top: 20px;
+}
+.code-section{
+	margin-bottom: 20px;
+}
+.support-info{
+	margin-top: 20px;
+}
+.tab_lay_ul>li.active>a {
+	background-color: rgb(0 128 96) !important;
+	color: #fff;
+}
+.tab_lay_ul{
+	border-bottom: none !important;
+}
+.tab_lay_ul a{
+	color: #000;
+}
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: rgb(0 128 96); /* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: rgb(0 128 96);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: rgb(0 128 96);
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: rgb(0 128 96);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: rgb(0 128 96);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgb(0 128 96);
+}
+input[type=range]::-ms-fill-upper {
+  background: rgb(0 128 96);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: rgb(0 128 96);
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: rgb(0 128 96);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #367ebd;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: rgb(0 128 96);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: rgb(0 128 96);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: rgb(0 128 96);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgb(0 128 96);
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: rgb(0 128 96);
+}
